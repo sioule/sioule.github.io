@@ -1,0 +1,35 @@
+img#id2 {float: left; margin: 10px;}
+
+ul#id1 {
+    list-style: none;
+    background-color:green; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+li {
+    clear: both;
+    margin: 30px; 
+   
+    color: white; 
+    display: inline;
+    font-size: large;
+    padding: 15px;
+    
+}
+
+div#id1 {
+    text-align: center;
+}
+
+.log {
+    float: right;
+    padding: 0 20px 0 20px;
+    color: black;
+}
+
+a { text-decoration: none; color: white;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
