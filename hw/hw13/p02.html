@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p02 </title>
+    <meta charset="utf-8" />
+
+    <script src="./jquery-3.6.0.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            $("img").hide();
+
+            $("button.sc").click(function () {
+                $("img.sc").show();
+            });
+
+            $("button.be").click(function () {
+                $("img.be").show();
+            });
+
+            $("button.bk").click(function () {
+                $("img.bk").show();
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+    <h1> 당신이 좋아하는 스포츠는? </h1>
+
+
+    <button class="sc"> 프로축구 </button>
+    <button class="be"> 프로야구 </button>
+    <button class="bk"> 프로농구 </button>
+
+    <p></p>
+
+    <img class="sc" src="./img/sc.jpg" width="300px" height="200px"/> 
+    <img class="be" src="./img/be.jpg" width="300px" height="200px"/>
+    <img class="bk" src="./img/bk.jpg" width="300px" height="200px"/>
+
+</body>
+
+</html>

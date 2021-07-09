@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p03 </title>
+    <meta charset="utf-8" />
+
+    <script src="./jquery-3.6.0.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            $("img.l").hide();
+
+            $("button").click(function () {
+                $("img.l").slideToggle("slow");
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <img class="s" src="./img/sc.jpg" width="200px" height="100px"/> 
+    <br><br>
+    <button> 큰 이미지 보기/닫기 </button>
+    <br><br>
+
+    <img class="l" src="./img/sc.jpg" width="600px" height="300px"/> 
+
+
+</body>
+
+</html>
