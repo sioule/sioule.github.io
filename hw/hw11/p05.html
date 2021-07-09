@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p05 </title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <script>
+        var fruits = new Array();
+        fruits[0] = {
+            name: "사과",
+            price: 21000,
+            count: 10
+        };
+        fruits[1] = {
+            name: "참외",
+            price: 18000,
+            count: 20
+        };
+        fruits[2] = {
+            name: "귤",
+            price: 15000,
+            count: 30
+        };
+        document.write("<table border='1'>");
+        document.write("<tr>");
+        document.write("<td>" + "이름" + "</td>"); 
+        document.write("<td>" + "가격" + "</td>");
+        document.write("<td>" + "개수" + "</td>");  
+       
+            document.write("</tr>");
+        for (var i = 0; i < fruits.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + fruits[i].name + "</td>");
+            document.write("<td>" + fruits[i].price + "</td>");
+            document.write("<td>" + fruits[i].count + "</td>");
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>

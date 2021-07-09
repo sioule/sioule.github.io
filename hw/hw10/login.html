@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <p> 아이디, 비밀번호 입력 </p>
+    <script>
+        var id = prompt("id를 입력하세요");
+
+        if(id=='std01') {
+            var pw = prompt("pw를 입력하세요");
+            if(pw=='1111'){
+                location.href="logina.html"
+            }
+            else{
+                location.href="loginb.html"  
+            }   
+         }
+        else if(id=='std02') {
+            var pw = prompt("pw를 입력하세요");
+
+            if(pw=='2222'){
+                location.href="logina.html"
+            }
+            else{
+                location.href="loginb.html"  
+            }  
+         }
+
+         else if(id=='std03') {
+            var pw = prompt("pw를 입력하세요");
+            if(pw=='3333'){
+                location.href="logina.html"
+            }
+            else{
+                location.href="loginb.html"  
+            }   
+         }
+
+         else
+            location.href="loginb.html"
+
+    </script>
+</body>
+
+</html>

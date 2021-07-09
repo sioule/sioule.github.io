@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p04 </title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <script>
+        var objList = [];
+        var obj1 = new Object();
+        obj1.name = "사과";
+        obj1.price = 21000;
+        obj1.count = 10;
+        objList.push(obj1)
+
+        var obj2 = new Object();
+        obj2.name = "참외";
+        obj2.price = 18000;
+        obj2.count = 20;
+        objList.push(obj2)
+
+        var obj3 = new Object();
+        obj3.name = "귤";
+        obj3.price = 15000;
+        obj3.count = 30;
+        objList.push(obj3)
+
+        document.write("<table border='1'>");
+        document.write("<tr>");
+        document.write("<td>" + "이름" + "</td>");
+        document.write("<td>" + "가격" + "</td>");
+        document.write("<td>" + "개수" + "</td>");
+        
+        for (var i = 0; i < objList.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + objList[i].name + "</td>");
+            document.write("<td>" + objList[i].price + "</td>");
+            document.write("<td>" + objList[i].count + "</td>");
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>

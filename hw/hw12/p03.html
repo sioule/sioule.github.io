@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p03 </title>
+    <meta charset="utf-8" />
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+
+        var ch = prompt("영문자를 입력하세요.")
+
+        aaa(ch);
+
+        function aaa(e) {
+            if (ch == null) {
+                document.write("입력을 취소했습니다.");
+            }
+            else if (ch >= "A" && ch <= "Z")
+                document.write("입력한 글자는 대문자 <span>" + ch + "</span> 입니다.");
+            else if (ch >= "a" && ch <= "z")
+                document.write("입력한 글자는 소문자 <span>" + ch + "</span> 입니다.");
+            else
+                document.write(ch + "는 영문자가 아닙니다.");
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

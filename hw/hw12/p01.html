@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> p01 </title>
+    <meta charset="utf-8" />
+    <style>
+        button {
+            width: 110px;
+            height: 40px;
+            background-color: aquamarine;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        function sum10() {
+            var sum = 0;
+
+            for (var i = 1; i <= 10; i++) {
+                sum += i;
+            }
+
+            alert("10까지 더한 값은 " + sum + "입니다.");
+        }
+        
+        function sum50() {
+            var sum = 0;
+
+            for (var i = 1; i <= 50; i++) {
+                sum += i;
+            }
+
+            alert("50까지 더한 값은 " + sum + "입니다.");
+        }
+
+        function sum100() {
+            var sum = 0;
+
+            for (var i = 1; i <= 100; i++) {
+                sum += i;
+            }
+
+            alert("100까지 더한 값은 " + sum + "입니다.");
+        }
+    </script>
+    <form>
+        <button type="button" onclick="sum10()"> 10까지 더하기 </button>
+        <button type="button" onclick="sum50()"> 50까지 더하기 </button>
+        <button type="button" onclick="sum100()"> 100까지 더하기 </button>
+    </form>
+</body>
+
+</html>
